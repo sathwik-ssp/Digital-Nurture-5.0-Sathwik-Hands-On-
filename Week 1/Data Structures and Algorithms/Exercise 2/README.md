@@ -1,24 +1,16 @@
-E-commerce Platform Search Function
+Exercise 2: 
 
-Scenario: You are working on the search functionality of an e-commerce platform. The search needs to be optimized for fast performance.
-
+Sorting Customer Orders Scenario: You are tasked with sorting customer orders by their total price on an e-commerce platform. This helps in prioritizing high-value orders.
 Steps:
 
-1.Understand Asymptotic Notation:
-oExplain Big O notation and how it helps in analyzing algorithms.
-oDescribe the best, average, and worst-case scenarios for search operations.
-
-
-
-2.Setup:
-Create a class Product with attributes for searching, such as productId, productName, and category.
-
-
-
-3.Implementation:
-Implement linear search and binary search algorithms.
-oStore products in an array for linear search and a sorted array for binary search.
-
-4.Analysis:
-Compare the time complexity of linear and binary search algorithms.
-oDiscuss which algorithm is more suitable for your platform and why.
+1.Understand Sorting Algorithms:                                 Explain different sorting algorithms (Bubble Sort, Insertion Sort, Quick Sort, Merge Sort).
+   
+2.Setup:                                    Create a class Order with attributes like orderId, customerName, and totalPrice.
+    
+3.Implementation:                                   
+    i) Implement Bubble Sort to sort orders by totalPrice.                                       
+    ii) Implement Quick Sort to sort orders by totalPrice.
+    
+4.Analysis:                                               
+    i) Compare the performance (time complexity) of Bubble Sort and Quick Sort.                          
+    ii) Discuss why Quick Sort is generally preferred over Bubble Sort. 
